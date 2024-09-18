@@ -15,7 +15,7 @@ This wants to be a distributed filesystem in k8s an orchestrated with Apache Air
 - Sequential and parallel execution
 - Job groups
 - Replicated jobs
-- Inter-process communication with `zbus` and `gRPC` and `Apache Arrow Flight`
+- Inter-process communication with `dbus`, `zbus`, `gRPC` and `Apache Arrow Flight`
 - Persistent job states
 - Cancel concurrent execution
 - Exclusive job execution
