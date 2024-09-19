@@ -20,6 +20,7 @@ This wants to be a distributed filesystem in k8s an orchestrated with Apache Air
 - Cancel concurrent execution
 - Exclusive job execution
 - Remote scheduling, manual, automatic, cron
+- Can exwcute any code which can be reoresebted6as Docker image
 
 # Stack
 
