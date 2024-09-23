@@ -7,12 +7,11 @@
 stable release.  
 > It's mostly ideal for experimental and learning projects.**
 
-This wants to be a distributed executor in k8s an orchestrated with Apache Airflow. It can be deployed on any cloud provider or on-prem.
-
 # Motivation
 
-If you can represent your job as a Docker image we will run it, retry it, distribute it, and much more. You'll have access to Kafka, S3, Aapache Spark & Flink....  
-There will be libs in several languages, gRPC service and REST API to manage the jobs. Everything will be easy for you to run your code. **You develop it, we run it**.
+This wants to be a `distributed executor` in `k8s` an `orchestrated` with `Apache Airflow`. It can be deployed on any `cloud` provider or `on-prem`.
+If you can represent your `job` as a `Docker` image we will `run` it, `retry` it, `distribute` it, and `much more`. You'll have access to `Kafka`, `S3`, `Aapache Spark` & `Flink`, `PostgreSQL`, `NoSQL`...  
+There will be `libs` in `several languages`, `gRPC service` and `REST API` to `manage` the jobs. Everything will be easy for you to run your code. **You develop it, we run it**.
 
 # Features
 
