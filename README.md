@@ -1,4 +1,4 @@
-# genie-executor
+# genie-do
 
 "Your wish is my command". A distributed executor service.
 
