@@ -7,7 +7,12 @@
 stable release.  
 > It's mostly ideal for experimental and learning projects.**
 
-This wants to be a distributed filesystem in k8s an orchestrated with Apache Airflow. It can be deployed on any cloud provider or on-prem.
+This wants to be a distributed executor in k8s an orchestrated with Apache Airflow. It can be deployed on any cloud provider or on-prem.
+
+# Motivation
+
+If you can represent your job as a Docker image we will run it, retry it, distribute it, and much more. You'll have access to Kafka, S3, Aapache Spark & Flink....  
+There will be libs in several languages, gRPC service and REST API to manage the jobs. Everything will be easy for you to run your code. **You develop it, we run it**.
 
 # Features
 
@@ -15,12 +20,12 @@ This wants to be a distributed filesystem in k8s an orchestrated with Apache Air
 - Sequential and parallel execution
 - Job groups
 - Replicated jobs
-- Inter-process communication with `dbus`, `zbus`, `gRPC` and `Apache Arrow Flight`
-- Persistent job states
-- Cancel concurrent execution
-- Exclusive job execution
+- Inter-process communication with `dbus`, `zbus`, `gRPC`, `Apache Arrow Flight`. `Spark`, `Flink`
+- Persistent job states in `PostgreSQL` and `NoSQL` solutions
+- Access file storage like `S3`
+- Cancel concurrent execution and exclusive job execution
 - Remote scheduling, manual, automatic, cron
-- Can exwcute any code which can be reoresebted6as Docker image
+- Can execute any code which can be reoresebted6as Docker image
 
 # Stack
 
@@ -29,4 +34,5 @@ This wants to be a distributed filesystem in k8s an orchestrated with Apache Air
 - Kafka for inter services communication and cron jobs
 - [Kafka Connect](https://docs.confluent.io/platform/current/connect/index.html) for stream processing
 - [Apache Flink](https://flink.apache.org/) for real-time event processing
+- S3
 - Observability with Grafana and Prometheus
