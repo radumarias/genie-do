@@ -26,7 +26,7 @@ There will be `libs` in `several languages`, `gRPC service` and `REST API` to `m
 - Access file storage like `S3`
 - Cancel concurrent execution and exclusive job execution
 - Remote scheduling, manual, automatic, cron
-- Can execute any code which can be reoresebted6as Docker image
+- Can execute any code which can be represented as a Docker image
 
 # Stack
 
