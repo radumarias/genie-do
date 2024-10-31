@@ -19,7 +19,7 @@ The idea is to take the burdens of managing the cluster from the devs and offer 
 Also in future it will offer libs in various languages.  
 And will be able to perform custom local actions similar to GitHub actions and community could build their actions.
 
-will be similar to GitHub actions + AWS lambda + spark functionality
+It will be similar to GitHub actions + AWS lambda + spark functionality.
 
 # Features
 
