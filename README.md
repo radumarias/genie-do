@@ -27,7 +27,7 @@ It will be similar to GitHub actions + AWS lambda + spark functionality.
 - Sequential and parallel execution
 - Job groups
 - Replicated jobs
-- Inter-process communication with `dbus`, `zbus`, `gRPC`, `Apache Arrow Flight`. `Spark`, `Flink`
+- Inter-process communication with `dbus`, `zbus`, `gRPC`, `Apache Arrow Flight`, `Spark`, `Flink`
 - Persistent job states in `PostgreSQL` and `NoSQL` solutions
 - Access file storage like `S3`
 - Cancel concurrent execution and exclusive job execution
