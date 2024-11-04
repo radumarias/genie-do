@@ -3,11 +3,11 @@
 "Your wish is my command". A distributed executor service.
 
 > [!WARNING]  
-> **This is still under development. Please do not use it with sensitive data for now, please wait for a
+> **This is still under development. Please do not use it with sensitive data, for now, please wait for a
 stable release.  
 > It's mostly ideal for experimental and learning projects.**
 
-**If you can represent your code as a Docker image we will run it. You develop it, we run it.**
+**If you can represent your code as a container image (Docker or compatible), we will run it. You develop it, we run it.**
 
 # Motivation
 
@@ -25,20 +25,22 @@ There will be `libs` in `several languages`, `gRPC service` and `REST API` to `m
 
 - Retries, failure tolerance, recovery, resilience, suspendable jobs
 - Sequential and parallel execution
+- Jobs graph
 - Job groups
 - Replicated jobs
 - Inter-process communication with `dbus`, `zbus`, `gRPC`, `Apache Arrow Flight`, `Spark`, `Flink`
 - Persistent job states in `PostgreSQL` and `NoSQL` solutions
 - Access file storage like `S3`
-- Cancel concurrent execution and exclusive job execution
+- Concurrent execution and exclusive job execution
 - Remote scheduling, manual, automatic, cron
-- Can execute any code which can be represented as a Docker image
+- Can execute any code which can be represented as a container image
 
 # Stack
 
-- Kubernetes
-- [Apache Airflow](https://airflow.apache.org/)
-- Kafka or other Event bus for inter-services communication and cron jobs
+- Kubernetes for containerization
+- [Apache Airflow](https://airflow.apache.org/) for orchestration
+- Kafka, Pulsar, or other Event bus for inter-service communication and cron jobs
+- [Apache Spark](https://spark.apache.org/) for executing data engineering, data science, and machine learning
 - [Kafka Connect](https://docs.confluent.io/platform/current/connect/index.html) for stream processing
 - [Apache Flink](https://flink.apache.org/) for real-time event processing
 - S3
