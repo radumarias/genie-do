@@ -12,7 +12,7 @@
   <body>
     <div id="home">
       <div id="nav"><p>Genie-do</p>
-        <button id="theme-toggle" class="btn"><i class="fa-solid fa-moon"></i>
+        <button id="theme-toggle" class="btn"><i class="fa-solid fa-sun"></i>
         </button>
       </div>
       
@@ -157,8 +157,6 @@
       </footer>
     </div>
 
-    <div class="circle"></div>
-    <div class="circle"></div>
 
     <script>
         document.getElementById("current-year").textContent = new Date().getFullYear();
@@ -168,8 +166,8 @@
           document.body.classList.toggle("dark-theme");
           themeToggle.innerHTML =
             document.body.classList.contains("dark-theme") 
-              ? '<i class="fa-solid fa-sun"></i>' 
-              : '<i class="fa-solid fa-moon"></i>';
+              ? '<i class="fa-solid fa-moon"></i>' 
+              : '<i class="fa-solid fa-sun"></i>';
         });
       </script>
       
