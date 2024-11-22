@@ -62,8 +62,8 @@ body.dark-theme {
 }
 
 #home {
-    background: url(bg.png)no-repeat center center/cover;
-    color: #DF0AF2;
+    background: url(bghome.jpg)no-repeat center center/cover;
+    color: #5A2E96;
     height: 88%;
     width: 100%;
     display: flex;
@@ -91,7 +91,7 @@ body.dark-theme {
     margin-top: 20px;
     padding: 10px 20px;
     border: none;
-    background-color: #DF0AF2;
+    background-color: #5A2E96;
     font-size: 16px;
     cursor: pointer;
     border-radius: 8px;
@@ -104,7 +104,7 @@ body.dark-theme {
 }
 
 .btn:hover {
-    background-color: #DF0AF2;
+    background-color: #5A2E96;
 }
 
 
@@ -120,7 +120,7 @@ body.dark-theme {
 .heading {
     font-size: 46px;
     font-weight: bold;
-    color: #DF0AF2;
+    color: #5A2E96;
     margin-bottom: 38px;
     text-align: center;
 }
@@ -141,7 +141,7 @@ body.dark-theme {
 }
 
 .highlight {
-    color: #DF0AF2;
+    color: #5A2E96;
     font-weight: bold;
 }
 
@@ -169,7 +169,7 @@ body.dark-theme {
 
 .features-list li:before {
     content: "•";
-    color: #DF0AF2;
+    color: #5A2E96;
     font-weight: bold;
     position: absolute;
     left: 0;
@@ -207,7 +207,7 @@ body.dark-theme {
     color: #fff;
 }
 .stack-item a {
-    color: #DF0AF2;
+    color: #5A2E96;
     text-decoration: none;
 }
 
@@ -221,7 +221,7 @@ body.dark-theme {
     bottom: 100%;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #DF0AF2;
+    background-color: #5A2E96;
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -236,7 +236,7 @@ body.dark-theme {
     text-align: center;
     margin-top: 32px;
     margin-bottom: 30px;
-    background: linear-gradient(to right, #DF0AF2, #DF0AF2);
+    background: linear-gradient(to right, #5A2E96, #5A2E96);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -253,7 +253,7 @@ body.dark-theme {
         margin-top: 20px;
         padding: 3px 11px;
         border: none;
-        background-color: #DF0AF2;
+        background-color: #5A2E96;
         font-size: 12px;
         cursor: pointer;
         border-radius: 8px;
@@ -307,7 +307,7 @@ body.dark-theme {
 
 
 footer {
-    color: #DF0AF2;
+    color: #5A2E96;
     text-align: center;
     padding: 20px;
     font-size: 14px;
